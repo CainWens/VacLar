@@ -1,0 +1,48 @@
+.home-top{
+    min-height: 80vh;
+    overflow: hidden;
+}
+
+.home-top-text-up{
+    font-size: 1.4rem;
+}
+
+.-mt-5{
+    margin-top: -12%;
+}
+
+.z-1{
+    z-index: 2;
+}
+
+.home-top-text-down{
+    margin: 40% 0 10px 0 ;
+
+}
+
+.card{
+    background-color: #4a5568;
+}
+
+.btn-home{
+    padding: 6px 50px;
+    font-size: 1.5rem;
+    border-radius: 30px 0 30px 0;
+    color: #1c7430;
+    border: 2px solid #1c7430;
+    text-decoration: none;
+    transition: .5s;
+
+    &:hover{
+        transition: .5s;
+        background-color: #1c7430;
+        color: whitesmoke;
+    }
+}
+
+@media screen and (max-width: 1290px){
+    .home-top{
+        min-height: 45vh;
+        overflow: hidden;
+    }
+}
